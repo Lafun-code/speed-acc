@@ -2,7 +2,7 @@
 
 A lightweight browser extension for Chrome, Edge, and other Chromium browsers that gives you precise control over video playback speed. It's designed to forcefully override stubborn video players and bypass the browser's native 16x speed limit.
 
-![Extension Popup]([images/popup-screenshot.png](https://i.imgur.com/7sopQtg.png))
+https://i.imgur.com/7sopQtg.png
 
 ## 🚀 The Problem
 
