@@ -1,0 +1,108 @@
+/* popup.css */
+
+/* --- Genel Ayarlar --- */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+               Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.popup-container {
+  width: 260px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* Bölümler arasına boşluk koyar */
+}
+
+/* --- 1. Başlık (Header) --- */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Logo ile yazı arası boşluk */
+  border-bottom: 1px solid #eee; /* İnce bir çizgi */
+  padding-bottom: 12px;
+}
+.header h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+.logo svg {
+  display: block; /* Düzgün hizalama için */
+}
+
+/* --- 2. İçerik (Content) --- */
+.content-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Input ve Buton arası boşluk */
+}
+.helper-text {
+  font-size: 13px;
+  color: #666;
+  margin: 0;
+  text-align: center;
+}
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  text-align: center;
+  color: #111;
+  box-sizing: border-box; /* Önemli: Kenarlığı genişliğe dahil eder */
+}
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  background-color: #28a745;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: filter 0.2s ease;
+}
+button:hover {
+  filter: brightness(90%);
+}
+
+/* --- 3. GitHub --- */
+.github-section {
+  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid #eee; /* İnce bir çizgi */
+}
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px; /* Logo ile yazı arası boşluk */
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #24292e; 
+  background-color: #f6f8fa;
+  border: 1px solid rgba(27, 31, 36, 0.15);
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+.github-link:hover {
+  background-color: #f3f4f6;
+  border-color: rgba(27, 31, 36, 0.35);
+}
+.github-link svg {
+  fill: currentColor;
+}
+
+/* --- 4. Alt Bilgi (Footer) --- */
+.footer {
+  text-align: center;
+  font-size: 11px;
+  color: #999;
+}
